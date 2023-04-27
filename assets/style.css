@@ -20,8 +20,14 @@
   header {
     padding: 20px;
     font-family: Garamond, Arial, sans-serif; 
+    color: #A3Abc5;
     background-color: #535027
-    
+   
+  }
+
+  ul {
+    display: inline-block;
+    list-style-type: none;
   }
   
   /* Main title*/
@@ -30,27 +36,7 @@
     font-size: 32px;
   
   
-  /*Navbar*/
-  header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: left;
-    font-family: Garamond, Arial, sans-serif;
-    font-size: 20px;
-  }
+ 
   
-  header nav ul {
-    list-style-type: none;
-  }
-  
-  header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-  }
-  
-  a {
-    color: #A3Abc5
-    text-decoration: none;
-  
-  
+
   
