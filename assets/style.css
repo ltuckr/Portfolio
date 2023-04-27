@@ -14,7 +14,7 @@
   
     --NAV--LINK-COLOR:  #fff;
     --NAV--LINK-BORDER-BOTTOM: #f0e8e8;
-    --NAV--LINK-HOVER: #A3Abc5;);
+    --NAV--LINK-HOVER: #A3Abc5;
   
     --HERO-H2-BGCOLOR:#535027;
     --HERO-H2-COLOR: #A3Abc5;
@@ -68,9 +68,6 @@
     float: right;
   }
 
- 
-  
-  
   
   li a {
     display: block;
@@ -79,8 +76,6 @@
     padding: 14px 16px;
     text-decoration: none;
   } 
-  
-
 
   li a:hover {
     background-color:#A3Abc5
@@ -89,10 +84,10 @@
   .hero-banner {
    background-image: url("../assets/pano.jpg");
    background-position: top;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 700px;
-  position: relative;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 300px;
+   position: relative;
 }
 
    
@@ -124,6 +119,7 @@
     font-size: 40px;
     text-align: end;
     padding-right: 15px;
+    
   }
   
   h2 {
@@ -157,19 +153,7 @@
     text-decoration: none;
   }
   
-  /* boxed grid */
-  .p0 {
-    grid-area: p0;
-  }
-  .p1 {
-    grid-area: p1;
-  }
-  .p2 {
-    grid-area: p2;
-  }
-
-  
-  figure {
+   figure {
     width: 100%;
     position: relative;
     border: 5px solid var(--IMAGE-BORDER);
@@ -215,9 +199,10 @@
   /* Media Queries */
   
   @media screen and (max-width: 900px) {
-    body {
-  */
-    }
+    body 
+  }
+
+
   
  
 
