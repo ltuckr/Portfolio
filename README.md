@@ -21,6 +21,7 @@ This webpage is intended for users to access a short personal bio, my coding por
 ## Credits
 
 Template code was pulled from: https://github.com/apyosi
+
 colorscheme was created here: https://www.khroma.co/generator
 
 Additional assistance was garnered from: 
