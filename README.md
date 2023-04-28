@@ -27,6 +27,9 @@ colorscheme was created here: https://www.khroma.co/generator
 Additional assistance was garnered from: 
 https://www.w3schools.com/css/css_navbar_horizontal.asp
 https://www.w3schools.com/howto/howto_css_hero_image.asp
+https://www.w3schools.com/cssref/css_selectors.php
+https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Card
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions
 https://www.webfx.com/blog/web-design/css-reset-stylesheets/
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 
