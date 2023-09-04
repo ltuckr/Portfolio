@@ -3,3 +3,7 @@ Add the @tailwind directives for each of Tailwind’s layers to your ./src/index
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav l { 
+  padding: 1 rem;
+}
