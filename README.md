@@ -2,9 +2,14 @@
 
 ## Description: 
 
+This is a portfolio webpage built with React and Tailwind CSS. 
+It is intended to showcase my coding projects and provide a way for potential employers to contact me.
+
 
 
 ## Installation
+
+Run npm i, then npm start to run the application locally. The application will run on http://localhost:3000 by default.
 
 
 
