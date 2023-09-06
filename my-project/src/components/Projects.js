@@ -1,21 +1,21 @@
 //project array
 const projects = [
     {
-      img: frostBite,
+      img: FrostBite,
       title: "Frostbite",
       desc: "",
       live: "",
       code: "",
     },
     {
-      img: flavorImpersonator,
+      img: FlavorImpersonator,
       title: "Flavor Impersonator",
       desc: "",
       live: "",
       code: "",
     },
     {
-      img: Project 3,
+      img: Project3,
       title: "Project 3",
       desc: "",
       live: "",
@@ -26,10 +26,10 @@ const projects = [
 
 //continue component here
 import React from "react";
-import cssProjects from "../assets/cssprojects.png";
-import devlog from "../assets/devlog.png";
-import getInspirred from "../assets/get-inspirred.png";
-import uilogs from "../assets/uilogs.png";
+import FlavorImpersonator from "../assets/FlavorImpersonator.png";
+import FrostBite from "../assets/Frostbite.png";
+import Project3 from "../assets/TBD.jpg";
+
 
 const Projects = () => {
   const projects = [...];
@@ -43,7 +43,7 @@ const Projects = () => {
           </h2>
 
           <p className="pb-5">
-            Here are some of my projects. I'm always working on something new, so check back often!
+            Here are some projects I've had the pleasure of being part of. I'm always working on something new, so check back often!
           </p>
         </div>
 
