@@ -13,13 +13,13 @@ const About = () => {
           <p className="pb-5">
         
             Hey there! I'm Lauren. I'm a Fullstack Developer with a passion for Frontend. 
-            I'm currently looking for full-time employment in web dev, and want the opportunity to flex my creative muscles. 
+            I'm currently looking for full-time employment in web dev, and would love the opportunity to flex my creative muscles. 
             Making things look good is my happy place. I have a certificate from the University of North Carolina at Charlotte in Fullstack Development, 
             and a Bachelor of Fine Arts in commercial photography from The Art Institute of Charlotte. 
 
           </p>
           <p className="pb-5">
-            I am quite content in Frontend with skills like React.js, 
+            I am quite content in Frontend with knowledge in React.js, 
             Tailwind CSS, SaSS, Css3 and many more.
           </p>
 
