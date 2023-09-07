@@ -29,7 +29,6 @@ const Header = () => {
             <a
               href="https://doc"
               target="_blank"
-              without
               rel="noreferrer"
             >
               Resume

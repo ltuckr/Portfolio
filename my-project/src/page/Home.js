@@ -4,12 +4,12 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
-const Home = () => {
+const Home = ({ projects }) => {
   return (
     <>
       <Hero />
       <About />
-      <Projects />
+      <Projects projects={projects} /> {/* Pass the projects prop here */}
       <Contact />
     </>
   );
