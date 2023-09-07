@@ -16,7 +16,7 @@ Run npm i, then npm start to run the application locally. The application will r
 This webpage is intended for users to access a short personal bio, my coding portfolio, and my professional contact information.
 
 
-##Screenshot
+## Screenshot
 
 ![folioss](https://github.com/ltuckr/Portfolio/assets/128933116/8b38bfd2-df4a-45f8-80f7-9e904d5662a9)
 
