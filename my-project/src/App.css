@@ -1,11 +1,9 @@
-
-
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    @apply text-lg
+    @apply text-lg;
 }
 
 .projects img {
@@ -17,7 +15,7 @@ body {
     background: #0F172A;
 }
 
-.bg-secondery {
+.bg-secondary {
     background: #1E293B;
 }
 
@@ -28,7 +26,6 @@ body {
 .text-accent {
     color: #7477FF;
 }
-
 
 nav li a {
     @apply px-4 py-5 text-lg;
@@ -42,9 +39,8 @@ nav li a:hover {
     @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
 }
 
-
 /* hero */
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Unbounded', sans-serif;
     line-height: 1.5 !important;
 }

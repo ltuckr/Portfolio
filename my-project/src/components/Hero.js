@@ -8,12 +8,12 @@ const Hero = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
-            Hello, <br />I'm <span className="text-accent">Lauren <br />
-            Fullstack Developer</span>
+            Hey there, <br /> I'm <span className="text-accent"> Lauren Tucker </span> <br />
+            Fullstack Developer
           </h1>
 
           <p className="py-5">
-            I work with MERN stack, particularly enjoy Frontend and love learning new things.
+            I work with MERN stack, Frontend is my first love and I really enjoy learning new things.
           </p>
 
           <a
@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="hero-img">
           <img
             src={HeroImg}
-            alt="coding illustration"
+            alt="female coder illustration"
             className="lgw-[80%] ml-auto"
           />
         </div>

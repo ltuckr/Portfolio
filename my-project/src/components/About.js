@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../assets/About.jpg"; // Rename the import variable
+import AboutImg from "../assets/About.jpg"; 
 
 const About = () => {
   return (
@@ -11,21 +11,19 @@ const About = () => {
           </h2>
 
           <p className="pb-5">
-            Hey there! I'm Lauren. I'm a Fullstack Developer with a passion for Frontend. 
+            Hey, I'm Lauren. I'm a Fullstack Developer with a passion for visual beauty. 
             I'm currently looking for full-time employment in web dev, and would love the opportunity to flex my creative muscles. 
             Making things look good is my happy place. I have a certificate from the University of North Carolina at Charlotte in Fullstack Development, 
             and a Bachelor of Fine Arts in commercial photography from The Art Institute of Charlotte. 
           </p>
           <p className="pb-5">
             I am quite content in Frontend with knowledge in React.js, 
-            Tailwind CSS, SaSS, Css3 and others.
+            Tailwind CSS and others.
+            In backend I've learned Node.js, Express.js, MongoDB, and Mongoose.
           </p>
-
-          <p>In backend I've learned Node.js, Express.js, MongoDB, and Mongoose</p>
-
           <p>
-            When I'm not I'm a gamer, a photographer, and proud cat/dog mom. 
-            I love the great outdoors, and I'm always up for an adventure.
+            When I'm not coding, I'm taking pictures, getting my pew-pew on, hiking in search of a waterfall or snuggling one of my furkids. 
+            I'm always up for an adventure.
           </p>
         </div>
 
@@ -34,8 +32,8 @@ const About = () => {
           <img
             src={AboutImg} 
             
-            alt="female coder illustration"
-            className="lgw-[80%] md:ml-auto"
+            alt="female coder and her cat illustration"
+            className="lg:w-[70%] md:ml-auto pl-4"
           />
         </div>
       </div>
