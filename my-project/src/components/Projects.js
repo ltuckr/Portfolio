@@ -1,39 +1,6 @@
-//project array
-const projects = [
-    {
-      img: FrostBite,
-      title: "Frostbite",
-      desc: "",
-      live: "",
-      code: "",
-    },
-    {
-      img: FlavorImpersonator,
-      title: "Flavor Impersonator",
-      desc: "",
-      live: "",
-      code: "",
-    },
-    {
-      img: Project3,
-      title: "Project 3",
-      desc: "",
-      live: "",
-      code: "",
-    },
-
-  ]; 
-
-//continue component here
 import React from "react";
-import FlavorImpersonator from "../assets/FlavorImpersonator.png";
-import FrostBite from "../assets/Frostbite.png";
-import Project3 from "../assets/TBD.jpg";
 
-
-const Projects = () => {
-  const projects = [...];
-
+const Projects = ({ projects }) => {
   return (
     <section className="bg-primary text-white px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
