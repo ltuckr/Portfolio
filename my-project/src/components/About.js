@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../assets/about-img.png";
+import AboutImg from "../assets/About.jpg"; // Rename the import variable
 
 const About = () => {
   return (
@@ -11,31 +11,30 @@ const About = () => {
           </h2>
 
           <p className="pb-5">
-        
             Hey there! I'm Lauren. I'm a Fullstack Developer with a passion for Frontend. 
-            I'm currently looking for full-time employment in web dev, and want the opportunity to flex my creative muscles. 
+            I'm currently looking for full-time employment in web dev, and would love the opportunity to flex my creative muscles. 
             Making things look good is my happy place. I have a certificate from the University of North Carolina at Charlotte in Fullstack Development, 
             and a Bachelor of Fine Arts in commercial photography from The Art Institute of Charlotte. 
-
           </p>
           <p className="pb-5">
-            I am quite content in Frontend with skills like React.js, 
-            Tailwind CSS, SaSS, Css3 and many more.
+            I am quite content in Frontend with knowledge in React.js, 
+            Tailwind CSS, SaSS, Css3 and others.
           </p>
 
           <p>In backend I've learned Node.js, Express.js, MongoDB, and Mongoose</p>
 
           <p>
-            In my spare time I'm a gamer, a photographer, and proud cat/dog mom. 
+            When I'm not I'm a gamer, a photographer, and proud cat/dog mom. 
             I love the great outdoors, and I'm always up for an adventure.
           </p>
-
         </div>
 
-        <div className="about-img">
+        <div className="About"> 
+        
           <img
-            src={AboutImg}
-            alt="coding illustration"
+            src={AboutImg} 
+            
+            alt="female coder illustration"
             className="lgw-[80%] md:ml-auto"
           />
         </div>

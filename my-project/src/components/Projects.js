@@ -1,39 +1,6 @@
-//project array
-const projects = [
-    {
-      img: frostBite,
-      title: "Frostbite",
-      desc: "",
-      live: "",
-      code: "",
-    },
-    {
-      img: flavorImpersonator,
-      title: "Flavor Impersonator",
-      desc: "",
-      live: "",
-      code: "",
-    },
-    {
-      img: Project 3,
-      title: "Project 3",
-      desc: "",
-      live: "",
-      code: "",
-    },
-
-  ]; 
-
-//continue component here
 import React from "react";
-import cssProjects from "../assets/cssprojects.png";
-import devlog from "../assets/devlog.png";
-import getInspirred from "../assets/get-inspirred.png";
-import uilogs from "../assets/uilogs.png";
 
-const Projects = () => {
-  const projects = [...];
-
+const Projects = ({ projects }) => {
   return (
     <section className="bg-primary text-white px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
@@ -43,7 +10,7 @@ const Projects = () => {
           </h2>
 
           <p className="pb-5">
-            Here are some of my projects. I'm always working on something new, so check back often!
+            Here are some projects I've had the pleasure of being part of. I'm always working on something new, so check back often!
           </p>
         </div>
 
