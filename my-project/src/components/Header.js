@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
       <a href="/" className="logo text-2xl font-bold text-accent">
-        Lauren Tucker
+        Home
       </a>
 
       {/* Desktop Nav */}
@@ -27,7 +27,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="https://doc"
+              href="https://docs.google.com/document/d/1vArUNgvPT48KmqgeDrg-MgySccYeOMba/edit?usp=drive_link"
               target="_blank"
               rel="noreferrer"
             >
