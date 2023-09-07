@@ -17,8 +17,7 @@ This webpage is intended for users to access a short personal bio, my coding por
 
 
 ##Screenshot
-![portss](https://github.com/ltuckr/Portfolio/assets/128933116/9fa60988-f202-4aac-9e56-299847866ca2)
-
+![folioss](https://github.com/ltuckr/Portfolio/assets/128933116/8b38bfd2-df4a-45f8-80f7-9e904d5662a9)
 
 ## Live 
 https://ltuckr.github.io/Portfolio/
