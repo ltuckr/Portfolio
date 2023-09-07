@@ -22,6 +22,9 @@ This webpage is intended for users to access a short personal bio, my coding por
 ## Credits
 - https://tailwindcss.com/docs/guides/create-react-app
 - https://dev.to/coderamrin/how-to-build-a-portfolio-website-with-react-tailwind-css-fni
+- https://github.com/Coderamrin
+- https://fonts.google.com/
+- https://tailwindcss.com/
 
 
 
