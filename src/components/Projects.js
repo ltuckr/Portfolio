@@ -1,7 +1,7 @@
 import React from "react";
-import Frostbite from "../assets/Frostbite.png"; // Import the image
-import FlavorImpersonator from "../assets/FlavorImpersonator.png"; // Import the image
-import TBD from "../assets/TBD.jpg"; // Import the image
+import Frostbite from "../assets/Frostbite.png"; 
+import FlavorImpersonator from "../assets/FlavorImpersonator.png"; 
+import TBD from "../assets/TBD.jpg"; 
 
 const Projects = () => {
 const projects = [
@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "Project 3",
-    img: TBD, // Use the imported image
+    img: TBD, 
     desc: "TBD",
     live: "https://example.com/project3",
     code: "https://github.com/user/project3",
