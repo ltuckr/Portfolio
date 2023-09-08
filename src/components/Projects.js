@@ -72,7 +72,7 @@ const projects = [
             <div className="relative" key={i}>
               <img src={project.img} alt={project.title} />
 
-              <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
+              <div className="flex absolute left-0 right-0 top-0] bottom-0 mx-auto w-[100%] h-[100%]  bg-secondary  opacity-0 duration-500 justify-center flex-col hover:opacity-95 ">
                 <p className="py-5 text-center font-bold px-2 text-white">
                   {project.desc}
                 </p>
@@ -80,13 +80,13 @@ const projects = [
                 <div className="mx-auto">
                   <a
                     href={project.live}
-                    className="px-5 py-2 bg-cyan-200 hover:bg-cyan-700 mr-5 font-bold"
+                    className="px-5 py-2 bg-cyan-700 hover:bg-cyan-300 mr-5 font-bold"
                   >
                     Live
                   </a>
                   <a
                     href={project.code}
-                    className="px-5 py-2 bg-orange-300 hover:bg-orange-600 font-bold"
+                    className="px-5 py-2 bg-orange-400 hover:bg-orange-600 font-bold"
                   >
                     Code
                   </a>
