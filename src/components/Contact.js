@@ -1,4 +1,141 @@
-import React from "react";
+import React, { useState } from "react";
+
+// Define form handling logic here
+
+const ContactForm = () => {
+  // Define form state for input values and error messages
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [errors, setErrors] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  // Handle changes in form input fields
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  // Validate the form when a field loses focus
+  const handleBlur = (event) => {
+    const { name, value } = event.target;
+    if (name === "name" && value.trim() === "") {
+      setErrors({
+        ...errors,
+        [name]: "Name is required.",
+      });
+    } else if (name === "email" && !isValidEmail(value)) {
+      setErrors({
+        ...errors,
+        [name]: "Invalid email address.",
+      });
+    } else {
+      setErrors({
+        ...errors,
+        [name]: "",
+      });
+    }
+  };
+
+  // Function to check for a valid email address
+  const isValidEmail = (email) => {
+    // Basic email validation (you can use a more robust validation library)
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  // Handle form submission
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    // Check for validation errors before submitting
+    if (formData.name.trim() === "") {
+      setErrors({
+        ...errors,
+        name: "Name is required.",
+      });
+      return;
+    }
+
+    if (!isValidEmail(formData.email)) {
+      setErrors({
+        ...errors,
+        email: "Invalid email address.",
+      });
+      return;
+    }
+
+    // Perform form submission logic here (e.g., send data to a server)
+    try {
+      // Your form submission code goes here
+    } catch (error) {
+      console.error("Error submitting the form:", error);
+    }
+  };
+
+  return (
+    <form className="py-4" onSubmit={handleSubmit}>
+      <div className="mb-4">
+        <label htmlFor="name" className="block font-bold">
+          Name:
+        </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleInputChange}
+          onBlur={handleBlur}
+          className="w-full border border-gray-300 rounded px-3 py-2"
+        />
+        {errors.name && <p className="text-red-500">{errors.name}</p>}
+      </div>
+      <div className="mb-4">
+        <label htmlFor="email" className="block font-bold">
+          Email:
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleInputChange}
+          onBlur={handleBlur}
+          className="w-full border border-gray-300 rounded px-3 py-2"
+        />
+        {errors.email && <p className="text-red-500">{errors.email}</p>}
+      </div>
+      <div className="mb-4">
+        <label htmlFor="message" className="block font-bold">
+          Message:
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          value={formData.message}
+          onChange={handleInputChange}
+          className="w-full border border-gray-300 rounded px-3 py-2"
+        ></textarea>
+      </div>
+      <button
+        type="submit"
+        className="btn bg-accent border-2 border-white text-white font-bold px-6 py-3 hover:bg-transparent"
+      >
+        Submit
+      </button>
+    </form>
+  );
+};
 
 const Contact = () => {
   return (
@@ -8,18 +145,27 @@ const Contact = () => {
           Contact Me
         </h2>
         <p>
-          I'm actively seeking a position.
-           Please feel free to reach out to me with any questions, or collaborative ideas.
+           Please feel free to leave a message or use the links below to reach out with any questions or collaborative ideas.
         </p>
+         {/* ContactForm component here */}
+         <ContactForm />
 
+          {/* Contact links */}
         <p className="py-2">
-          <span className="font-bold">Email:</span> ltuckr.webdev@gmail.com
+          <span className="font-bold">Email:</span>{" "}
+          <a href="mailto:ltuckr.webdev@gmail.com">ltuckr.webdev@gmail.com</a>
         </p>
         <p className="py-2">
-          <span className="font-bold">Github:</span> https://github.com/ltuckr
+          <span className="font-bold">Github:</span>{" "}
+          <a href="https://github.com/ltuckr" target="_blank" rel="noopener noreferrer">
+            https://github.com/ltuckr
+          </a>
         </p>
         <p className="py-2">
-            <span className="font-bold">LinkedIn:</span> www.linkedin.com/in/ltuckr
+          <span className="font-bold">LinkedIn:</span>{" "}
+          <a href="https://www.linkedin.com/in/ltuckr" target="_blank" rel="noopener noreferrer">
+            www.linkedin.com/in/ltuckr
+          </a>
         </p>
       </div>
     </section>
