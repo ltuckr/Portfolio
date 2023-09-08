@@ -22,7 +22,28 @@ const projects = [
   {
     title: "Project 3",
     img: TBD, 
-    desc: "TBD",
+    desc: "not yet completed",
+    live: "https://example.com/project3",
+    code: "https://github.com/user/project3",
+  },
+  {
+    title: "Project 3",
+    img: TBD, 
+    desc: "not yet completed",
+    live: "https://example.com/project3",
+    code: "https://github.com/user/project3",
+  },
+  {
+    title: "Project 3",
+    img: TBD, 
+    desc: "not yet completed",
+    live: "https://example.com/project3",
+    code: "https://github.com/user/project3",
+  },
+  {
+    title: "Project 3",
+    img: TBD, 
+    desc: "not yet completed",
     live: "https://example.com/project3",
     code: "https://github.com/user/project3",
   },
@@ -59,13 +80,13 @@ const projects = [
                 <div className="mx-auto">
                   <a
                     href={project.live}
-                    className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold"
+                    className="px-5 py-2 bg-cyan-200 hover:bg-cyan-700 mr-5 font-bold"
                   >
                     Live
                   </a>
                   <a
                     href={project.code}
-                    className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"
+                    className="px-5 py-2 bg-orange-300 hover:bg-orange-600 font-bold"
                   >
                     Code
                   </a>
