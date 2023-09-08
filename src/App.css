@@ -12,19 +12,19 @@ body {
 
 /* color */
 .bg-primary {
-    background: #0F172A;
+    background:  #183D62;
 }
 
 .bg-secondary {
-    background: #1E293B;
+    background: #598E9E;
 }
 
 .bg-accent {
-    background: #7477FF;
+    background: #DD8B57;
 }
 
 .text-accent {
-    color: #7477FF;
+    color: #DD8B57;
 }
 
 nav li a {
@@ -32,7 +32,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #7477FF;
+    color: #DD8B57;
 }
 
 .mobile-nav {
