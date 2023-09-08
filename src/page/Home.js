@@ -9,7 +9,7 @@ const Home = ({ projects }) => {
     <>
       <Hero />
       <About />
-      <Projects projects={projects} /> {/* Pass the projects prop here */}
+      <Projects projects={projects} /> 
       <Contact />
     </>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg from '../assets/hero.jpg';;
+import HeroImg from '../assets/hero.jpg';
 
 
 const Hero = () => {
@@ -25,12 +25,13 @@ const Hero = () => {
         </div>
 
         <div className="hero-img">
-          <img
-            src={HeroImg}
-            alt="female coder illustration"
-            className="lgw-[80%] ml-auto"
-          />
-        </div>
+  <img
+    src={HeroImg}
+    alt="female coder illustration"
+    style={{ width: '80%' }} // Adjust the width as needed
+    className="ml-auto"
+  />
+</div>
       </div>
     </section>
   );
