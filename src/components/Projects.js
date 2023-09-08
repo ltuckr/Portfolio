@@ -1,6 +1,33 @@
 import React from "react";
+import Frostbite from "../assets/Frostbite.png"; // Import the image
+import FlavorImpersonator from "../assets/FlavorImpersonator.png"; // Import the image
+import TBD from "../assets/TBD.jpg"; // Import the image
 
-const Projects = ({ projects }) => {
+const Projects = () => {
+const projects = [
+  {
+    title: "Frostbite",
+    img: Frostbite,
+    desc: "An app that allows users to plan an outing based on the input search location and the use of 2 separate API's: one for weather, one for area restaurants.",
+    live: "https://ltuckr.github.io/frost-bite/",
+    code: "https://github.com/ltuckr/frost-bite",
+  },
+  {
+    title: "Flavor Impersonator",
+    img: FlavorImpersonator,
+    desc: "Part blog, part social app. Share and discover recipes. Uses Node.js, Express.js, Handlebars.js, MySQL, Sequelize, Bootstrap and Animate.css.",
+    live: "https://flavor-impersonator-2e87d3d63575.herokuapp.com/",
+    code: "https://github.com/ltuckr/flavor-impersonator",
+  },
+  {
+    title: "Project 3",
+    img: TBD, // Use the imported image
+    desc: "TBD",
+    live: "https://example.com/project3",
+    code: "https://github.com/user/project3",
+  },
+];
+
   return (
     <section className="bg-primary text-white px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
@@ -10,7 +37,7 @@ const Projects = ({ projects }) => {
           </h2>
 
           <p className="pb-5">
-            Here are some projects I've had the pleasure of being part of. I'm always working on something new, so check back often!
+            Here are some projects I've had the pleasure of working on. Check back often for updates!
           </p>
         </div>
 
@@ -19,9 +46,11 @@ const Projects = ({ projects }) => {
 
       <div className="projects container mx-auto grid md:grid-cols-3 gap-10">
         {projects.map((project, i) => {
+
           return (
             <div className="relative" key={i}>
-              <img src={projects.img} alt={projects.title} />
+              <img src={project.img} alt={project.title} />
+
               <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <p className="py-5 text-center font-bold px-2 text-white">
                   {project.desc}
