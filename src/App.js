@@ -10,21 +10,21 @@ function App() {
   const projects = [
     {
       title: "Frostbite",
-      img: "Frostbite.png",
+      img: "../assets/Frostbite.png",
       desc: "An that allows users to plan a meal out by searching for weather and a listing of restaurants based on the input search location and the use of 2 separate APIs.",
       live: "https://ltuckr.github.io/frost-bite/",
       code: "https://github.com/ltuckr/frost-bite",
     },
     {
       title: "Flavor Impersonator",
-      img: "FlavorImpersonator.png",
+      img: "../assets/FlavorImpersonator.png",
       desc: "Users can share and discover their favorite restaurant copycat recipes by leveraging the power of Node.js, Express.js, Handlebars.js, MySQL,Sequelize, Bootstrap and Animate.css.",
       live: "https://flavor-impersonator-2e87d3d63575.herokuapp.com/",
       code: "https://github.com/ltuckr/flavor-impersonator",
     },
     {
       title: "Project 3",
-      img: "TBD.jpg",
+      img: "../assets/TBD.jpg",
       desc: "TBA",
       live: "https://example.com/project3",
       code: "https://github.com/user/project3",

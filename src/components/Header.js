@@ -20,7 +20,7 @@ const Header = () => {
             <a href="/#about">About</a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#projects">Portfolio</a>
           </li>
           <li>
             <a href="/#contact">Contact</a>
@@ -58,8 +58,9 @@ const Header = () => {
       </nav>
 
       {/* Toggle button */}
-      <button onClick={handleToggle} className="block md:hidden">
-        {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
+      <button 
+      onClick={handleToggle} className="block md:hidden" style={{ border: 'none' }}>
+      {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
       </button>
     </header>
   );
