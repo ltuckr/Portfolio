@@ -33,7 +33,7 @@ const About = () => {
             src={AboutImg} 
             
             alt="female coder and her cat illustration"
-            className="lg:w-[70%] md:ml-auto pl-4"
+            className="lg:w-[70%] md:ml-auto pl-4 "
           />
         </div>
       </div>

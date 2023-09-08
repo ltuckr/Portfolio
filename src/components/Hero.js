@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImg from '../assets/hero.jpg';
+import 'animate.css';
 
 
 const Hero = () => {
@@ -29,7 +30,7 @@ const Hero = () => {
     src={HeroImg}
     alt="female coder illustration"
     style={{ width: '80%' }} // Adjust the width as needed
-    className="ml-auto"
+    className="ml-auto animate__animated animate__fadeIn"
   />
 </div>
       </div>

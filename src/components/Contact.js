@@ -145,29 +145,11 @@ const Contact = () => {
           Contact Me
         </h2>
         <p>
-           Please feel free to leave a message or use the links below to reach out with any questions or collaborative ideas.
+           Leave a message or use one of the corresponding links below to reach out with any questions or collaborative ideas.
         </p>
          {/* ContactForm component here */}
          <ContactForm />
-
-          {/* Contact links */}
-        <p className="py-2">
-          <span className="font-bold">Email:</span>{" "}
-          <a href="mailto:ltuckr.webdev@gmail.com">ltuckr.webdev@gmail.com</a>
-        </p>
-        <p className="py-2">
-          <span className="font-bold">Github:</span>{" "}
-          <a href="https://github.com/ltuckr" target="_blank" rel="noopener noreferrer">
-            https://github.com/ltuckr
-          </a>
-        </p>
-        <p className="py-2">
-          <span className="font-bold">LinkedIn:</span>{" "}
-          <a href="https://www.linkedin.com/in/ltuckr" target="_blank" rel="noopener noreferrer">
-            www.linkedin.com/in/ltuckr
-          </a>
-        </p>
-      </div>
+          </div>
     </section>
   );
 };
