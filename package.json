@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://ltuckr.github.io/Portfolio/",
   "private": true,
   "homepage": "https://ltuckr.github.io/Portfolio/", 
   "dependencies": {
