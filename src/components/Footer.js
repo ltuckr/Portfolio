@@ -12,7 +12,7 @@ const Footer = () => {
           href="https://github.com/ltuckr"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white mx-2"
+          className="text-orange-400 mx-2"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
@@ -20,13 +20,13 @@ const Footer = () => {
           href="https://www.linkedin.com/in/ltuckr"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white mx-2"
+          className="text-orange-400 mx-2"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
           href="mailto:ltuckr.webdev@gmail.com"
-          className="text-white mx-2"
+          className="text-orange-400 mx-2"
         >
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
