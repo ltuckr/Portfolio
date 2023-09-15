@@ -5,22 +5,22 @@ import Home from "./page/Home";
 
 import Projects from "./components/Projects"; 
 
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"; //downgrage to react router v5
 
 function App() {
   return (
 
-    <>
+    <Router>
       <Header />
-      <Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/projects" element={<Projects />} />
-</Routes>
-
+      <Switch>
+        <Route path="/projects" component={Projects} />
+        <Route path="/" component={Home} />
+      </Switch>
       <Footer />
-    </>
+    </Router>
   );
 }
+
 
 export default App;
 
