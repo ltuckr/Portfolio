@@ -1,6 +1,7 @@
 import React from "react";
 import Frostbite from "../assets/Frostbite.png"; 
 import FlavorImpersonator from "../assets/FlavorImpersonator.png"; 
+import Focusfolio from "../assets/Focusfolio.png";
 import TBD from "../assets/TBD.jpg"; 
 
 const Projects = () => {
@@ -21,10 +22,10 @@ const projects = [
   },
   {
     title: "Project 3",
-    img: TBD, 
-    desc: "not yet completed",
-    live: "https://example.com/project3",
-    code: "https://github.com/user/project3",
+    img: Focusfolio, 
+    desc: "A full-stack app that allows an artist to create a portfolio. Uses React, Node.js, Express.js, MongoDB, Mongoose, Bootstrap and Animate.css.",
+    live: "https://afternoon-waters-41270-ff57a8e3fb9c.herokuapp.com/",
+    code: "https://github.com/ltuckr/focusfolio",
   },
   {
     title: "Project 3",
