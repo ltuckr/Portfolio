@@ -2,7 +2,7 @@
 
 ## Description: 
 
-This is a portfolio webpage built with React and Tailwind CSS. 
+This is a portfolio webpage wip built with React and Tailwind CSS. 
 It is intended to showcase my coding projects and provide a way for potential employers to contact me.
 
 
